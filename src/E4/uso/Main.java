@@ -12,7 +12,7 @@ public class Main {
         test.agregar(23);
         while(!test.conjuntoVacio()){
             int c = test.elegir();
-            System.out.println(c);
+            System.out.println(c); // esto es un print. --Jordi
             test.sacar(c);
         }
     }
