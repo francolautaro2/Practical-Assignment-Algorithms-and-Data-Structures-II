@@ -1,6 +1,6 @@
 package E4.interfaces;
 
-// import tda.ConjuntoTDA;
+import tda.ConjuntoTDA;
 
 public interface DiccionarioSimpleModTDA {
     public void inicializarDiccionario();
@@ -8,5 +8,5 @@ public interface DiccionarioSimpleModTDA {
     public void eliminar(int clave);
     public int recuperar(int clave);
     public int recuperarMod(int clave);
-    //public ConjuntoTDA claves();
+    public ConjuntoTDA claves();
 }
