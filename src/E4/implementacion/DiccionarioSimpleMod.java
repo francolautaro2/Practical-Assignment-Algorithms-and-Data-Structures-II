@@ -23,12 +23,12 @@ public class DiccionarioSimpleMod implements DiccionarioSimpleModTDA {
         if (pos == -1) {
             elementos[cant] = new Elemento();
             elementos[cant].clave = clave;
-            elementos[cant].factorMod = 0;
+            elementos[cant].factorMod = 0; // si se agrega por primera vez el factor de modificacion es 0
             elementos[cant].valor = valor;
             cant++;
         } else {
             elementos[pos].valor = valor;
-            elementos[pos].factorMod += 1;
+            elementos[pos].factorMod += 1; // aumentamos el factor de modificacion si se modifica el valor
         }
     }
 
