@@ -1,5 +1,5 @@
 /bin/
-
+build/
 
 # IntelliJ IDEA
 .idea/
@@ -12,7 +12,6 @@
 
 # NetBeans
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
@@ -20,7 +19,6 @@ nbdist/
 
 # Gradle
 .gradle/
-build/
 
 # Maven
 target/
