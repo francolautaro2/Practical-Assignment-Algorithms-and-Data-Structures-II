@@ -1,3 +1,35 @@
 /bin/
-/lib
+
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
 .classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# General
+*.log
+*.class
+*.war
+*.ear
+.DS_Store
+
+.vscode

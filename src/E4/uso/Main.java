@@ -1,7 +1,7 @@
 package E4.uso;
 
-import imple.*;
-import tda.*;
+import imple.Conjunto;
+import tda.ConjuntoTDA;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +10,10 @@ public class Main {
         test.inicializarConjunto();
         test.agregar(30);
         test.agregar(23);
-        
+        while(!test.conjuntoVacio()){
+            int c = test.elegir();
+            System.out.println(c);
+            test.sacar(c);
+        }
     }
 }
