@@ -1,4 +1,4 @@
-package E10;
+package E10.uso;
 
 import tda.*;
 import imple.*;
