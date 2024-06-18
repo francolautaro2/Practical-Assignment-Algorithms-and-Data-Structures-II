@@ -32,7 +32,7 @@ public class Main {
         }
     }
 
-    public static ColaTDA sinRepetidos(ColaTDA c) {
+    public static ColaTDA sinRepetidos(ColaTDA c) { // Complejidad Exponencial
         ConjuntoTDA temp = new Conjunto();
         temp.inicializarConjunto();
         ColaTDA resultado = new Cola();
