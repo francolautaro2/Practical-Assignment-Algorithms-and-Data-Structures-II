@@ -5,15 +5,15 @@ import imple.Pila;
 import E3.interfaces.MultiPilaTDA;
 
 public class MultiPila implements MultiPilaTDA {
-	private class Nodo {
-		int info;
-		Nodo sig;
-	}
-	private Nodo primero;
-	private int tamanio;
+    private class Nodo {
+	int info;
+	Nodo sig;
+    }
+    private Nodo primero;
+    private int tamanio;
 	
-	public void apilar(PilaTDA valores) {
-		if (valores.pilaVacia()) {
+    public void apilar(PilaTDA valores) {
+	if (valores.pilaVacia()) {
             return;
         }
         
@@ -31,12 +31,12 @@ public class MultiPila implements MultiPilaTDA {
         valores.apilar(x);
     }
 
-	public void desapilar(PilaTDA valores) { // Complejidad: Lineal
-		if (valores.pilaVacia() || this.pilaVacia()) {
+    public void desapilar(PilaTDA valores) { // Complejidad: Lineal
+	if (valores.pilaVacia() || this.pilaVacia()) {
             return;
-		}
+	}
 		
-		Nodo actual = primero;
+	Nodo actual = primero;
         PilaTDA temp = new Pila();
         temp.inicializarPila();
         
@@ -61,7 +61,7 @@ public class MultiPila implements MultiPilaTDA {
         }
     }
 
-	public PilaTDA tope(int cantidad) { // Complejidad: Lineal
+    public PilaTDA tope(int cantidad) { // Complejidad: Lineal
         PilaTDA pilaAux = new Pila();
         pilaAux.inicializarPila();
         PilaTDA temp = new Pila();
@@ -84,16 +84,16 @@ public class MultiPila implements MultiPilaTDA {
         }
         
         return pilaAux;
-	}
+    }
 
 	
-	public void inicializarMultiPila() { //Complejidad: Constante
-		tamanio = 0;
-		primero = null;
-	}
+    public void inicializarMultiPila() { //Complejidad: Constante
+	tamanio = 0;
+	primero = null;
+    }
 
 	
-	public boolean pilaVacia() { // Complejidad: Constante
-		return (primero == null);
-	}
+    public boolean pilaVacia() { // Complejidad: Constante
+	return (primero == null);
+    }
 }
