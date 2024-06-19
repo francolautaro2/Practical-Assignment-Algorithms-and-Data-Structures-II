@@ -88,7 +88,7 @@ public class MultiPila implements MultiPilaTDA {
 	*/
 
 	public PilaTDA tope(int cantidad) { // Complejidad: Lineal
-		PilaTDA pilaAux = new Pila();
+        PilaTDA pilaAux = new Pila();
         pilaAux.inicializarPila();
         PilaTDA temp = new Pila();
         temp.inicializarPila();
