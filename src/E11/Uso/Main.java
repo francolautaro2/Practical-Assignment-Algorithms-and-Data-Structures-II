@@ -13,10 +13,15 @@ public class Main {
 		dm.agregar(4, 8);
 		dm.agregar(5, 4);
 		dm.agregar(6, 1);
-		ColaValoresSinRepetir(dm);
+		
+		ColaTDA test = ColaValoresSinRepetir(dm);
+		while(!test.colaVacia()) {
+			System.out.println(test.primero());
+			test.desacolar();
+		}
 	}
 
-	private static void ColaValoresSinRepetir(DiccionarioMultipleTDA dm) {
+	private static ColaTDA ColaValoresSinRepetir(DiccionarioMultipleTDA dm) {
 		// TODO Auto-generated method stub
 		ColaTDA c=new Cola();
 		c.inicializarCola();
@@ -30,7 +35,7 @@ public class Main {
 		while (!dm.claves().conjuntoVacio()) {//Paso el DiccionarioMultiple a un auxiliar y mostrar por pantalla la composicion de ésta
 			int clave=dm.claves().elegir();
 			int valor=dm.recuperar(clave).elegir();
-			System.out.println("Clave: "+clave+" Valor: "+valor);
+			
 			auxdm.agregar(clave, valor);
 			dm.eliminarValor(clave, valor);
 		}
@@ -39,7 +44,6 @@ public class Main {
 			int clave=auxdm.claves().elegir();
 			int valor=auxdm.recuperar(clave).elegir();
 			if (!conj.pertenece(valor)) {//Compruebo si el valor ya pertenece o no
-				System.out.println("Valor agregado: "+valor);//Muestro x pantalla cual se agrega
 				conj.agregar(valor);
 				c.acolar(valor);//Agrego al conjunto y a la cola en simultaneo
 			}
@@ -47,10 +51,7 @@ public class Main {
 			auxdm.eliminarValor(clave, valor);
 		}
 		
-		//while (!c.colaVacia()) {//Comprobacion de que anda
-			//c.desacolar();
-		//}
-		System.out.println("Listo");
+		return c;
 
 	}
 
