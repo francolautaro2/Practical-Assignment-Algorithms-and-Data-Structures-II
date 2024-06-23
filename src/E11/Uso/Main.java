@@ -13,7 +13,7 @@ public class Main {
 		dm.agregar(4, 8);
 		dm.agregar(5, 4);
 		dm.agregar(6, 1);
-		
+
 		ColaTDA test = ColaValoresSinRepetir(dm);
 		while(!test.colaVacia()) {
 			System.out.println(test.primero());
@@ -34,12 +34,13 @@ public class Main {
 		
 		while (!dm.claves().conjuntoVacio()) {//Paso el DiccionarioMultiple a un auxiliar y mostrar por pantalla la composicion de ésta
 			int clave=dm.claves().elegir();
-			int valor=dm.recuperar(clave).elegir();
-			
+
+			int valor=dm.recuperar(clave).elegir();	
 			auxdm.agregar(clave, valor);
+			
 			dm.eliminarValor(clave, valor);
 		}
-		System.out.println();
+		
 		while (!auxdm.claves().conjuntoVacio()) {//Trabajo con el DM auxiliar
 			int clave=auxdm.claves().elegir();
 			int valor=auxdm.recuperar(clave).elegir();
