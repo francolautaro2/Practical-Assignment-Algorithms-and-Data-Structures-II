@@ -16,9 +16,14 @@ public class Main {
 		pila.apilar(2);
 		pila.apilar(4);
 		pila.apilar(2);
-		imprimirPila(pila);
+		System.out.println("Elementos repetidos:");
 		
-		System.out.println(pilaRepetidos(pila).elegir());
+		ConjuntoTDA conjunto = pilaRepetidos(pila);
+		while (!conjunto.conjuntoVacio()) {
+			int valor = conjunto.elegir();
+			System.out.println(valor);
+			conjunto.sacar(valor);
+		}
 	}
 	
 	public static ConjuntoTDA pilaRepetidos(PilaTDA pila) {
