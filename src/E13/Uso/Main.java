@@ -23,6 +23,7 @@ public class Main {
 			return 0;
 		}
 		
+<<<<<<< HEAD
 		if (arbol.hijoDer().arbolVacio() && arbol.hijoIzq().arbolVacio()) { // si es hoja
 	        if (arbol.raiz() % 2 == 0) {
 	            return 1;
@@ -30,6 +31,15 @@ public class Main {
 	            return 0;
 	        }
 	    }
+=======
+		if (arbol.hijoDer().arbolVacio() && arbol.hijoIzq().arbolVacio()) {
+			if (arbol.raiz() % 2 == 0) {
+		    		return 1;
+			} else {
+		   		return 0;
+			}
+	    	}
+>>>>>>> dc4236b53164728f1aba31d51872f6aebb1d3b1a
 		
 		int cantidadHojasParesDer = cantidadHojasPares(arbol.hijoDer());
 		int cantidadHojasParesIzq = cantidadHojasPares(arbol.hijoIzq());
