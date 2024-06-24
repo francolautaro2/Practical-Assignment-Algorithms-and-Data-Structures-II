@@ -12,6 +12,7 @@ public class Main {
 		arbol.agregarElem(5);
 		arbol.agregarElem(15);
 		arbol.agregarElem(2);
+		arbol.agregarElem(800);
 		
 		
 		System.out.println(cantidadHojasPares(arbol));
