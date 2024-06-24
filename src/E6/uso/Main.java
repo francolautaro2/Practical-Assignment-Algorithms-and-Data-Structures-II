@@ -4,7 +4,7 @@ import imple.*;
 
 public class Main {
 	
-	public static float porcentajeElementosParesPila(PilaTDA pilaOriginal) {
+	public static float porcentajeElementosParesPila(PilaTDA pilaOriginal) { //Lineal
 		PilaTDA pilaAuxiliar = new Pila();
 		
 		int cantidadElementos = 0;

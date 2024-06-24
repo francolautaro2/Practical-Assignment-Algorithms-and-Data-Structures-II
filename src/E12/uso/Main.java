@@ -6,7 +6,7 @@ import imple.*;
 public class Main {
 		private static int suma = 0;
 		
-		public static int calcularSumaElementosImparesArbol(ABBTDA arbol){
+		public static int calcularSumaElementosImparesArbol(ABBTDA arbol){ //No se mide la complejidad por ser recursivo
 			
 			if (arbol.arbolVacio() == false) {
 				int raiz = arbol.raiz();
