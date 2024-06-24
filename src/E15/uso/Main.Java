@@ -21,7 +21,7 @@ public class Main {
 	        }
 	    }
 	    
-	    // Cuenta las aristas que llegan al vertice 
+	    // Cuenta la cantidad aristas que llegan al vertice 
 	    vertices = grafo.vertices();
 	    vertices.inicializarConjunto();
 	    while (!vertices.conjuntoVacio()) {
