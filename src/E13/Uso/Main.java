@@ -4,9 +4,7 @@ import tda.ABBTDA;
 import imple.ABB;
 
 public class Main {
-	
-	private static int cantidad = 0;
-	
+		
 	public static void main(String[] args) {
 		ABB arbol = new ABB();
 		arbol.inicializarArbol();
@@ -14,9 +12,7 @@ public class Main {
 		arbol.agregarElem(5);
 		arbol.agregarElem(15);
 		arbol.agregarElem(2);
-		arbol.agregarElem(7);
-		arbol.agregarElem(12);
-		arbol.agregarElem(20);
+		
 		
 		System.out.println(cantidadHojasPares(arbol));
 	}
@@ -26,7 +22,7 @@ public class Main {
 			return 0;
 		}
 		
-		if (arbol.hijoDer().arbolVacio() && arbol.hijoIzq().arbolVacio()) {
+		if (arbol.hijoDer().arbolVacio() && arbol.hijoIzq().arbolVacio()) { // si es hoja
 	        if (arbol.raiz() % 2 == 0) {
 	            return 1;
 	        } else {
