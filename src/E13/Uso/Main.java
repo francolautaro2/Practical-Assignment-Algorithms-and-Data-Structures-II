@@ -27,12 +27,12 @@ public class Main {
 		}
 		
 		if (arbol.hijoDer().arbolVacio() && arbol.hijoIzq().arbolVacio()) {
-	        if (arbol.raiz() % 2 == 0) {
-	            return 1;
-	        } else {
-	            return 0;
-	        }
-	    }
+			if (arbol.raiz() % 2 == 0) {
+		    		return 1;
+			} else {
+		   		return 0;
+			}
+	    	}
 		
 		int cantidadHojasParesDer = cantidadHojasPares(arbol.hijoDer());
 		int cantidadHojasParesIzq = cantidadHojasPares(arbol.hijoIzq());
