@@ -18,7 +18,7 @@ public class DiccionarioSimpleMod implements DiccionarioSimpleModTDA {
         elementos = new Elemento[10];
     }
 
-    public void agregar(int clave, int valor) {
+    public void agregar(int clave, int valor) { // Complejidad Lineal
         int pos = this.clave2Indice(clave);
         if (pos == -1) {
             elementos[cant] = new Elemento();
@@ -32,15 +32,15 @@ public class DiccionarioSimpleMod implements DiccionarioSimpleModTDA {
         }
     }
 
-    public void eliminar(int clave) {
-        int pos = clave2Indice(clave);
+    public void eliminar(int clave) { // Complejidad Lineal
+        int pos = clave2Indice(clave); 
         if(pos != 1) {
             elementos[pos] = elementos[cant - 1];
             cant--;
         }
     }
 
-    private int clave2Indice(int clave) {
+    private int clave2Indice(int clave) { // Complejidad Lineal
         int i = cant - 1;
         while(i >=0 && elementos[i].clave != clave) {
             i--;
@@ -48,17 +48,17 @@ public class DiccionarioSimpleMod implements DiccionarioSimpleModTDA {
         return i;
     }
 
-    public int recuperar(int clave) {
+    public int recuperar(int clave) { // Complejidad Lineal
         int pos = clave2Indice(clave);
         return elementos[pos].valor;
     }
 
-    public int recuperarMod(int clave){
+    public int recuperarMod(int clave){ // Complejidad Lineal
         int pos = clave2Indice(clave);
         return elementos[pos].factorMod;
     }
 
-    public ConjuntoTDA claves() {
+    public ConjuntoTDA claves() { // Complejidad Lineal
         int i = cant-1;
         ConjuntoTDA claves = new Conjunto();
         claves.inicializarConjunto();

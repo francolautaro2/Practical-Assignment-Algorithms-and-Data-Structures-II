@@ -6,19 +6,19 @@ public class ConjuntoMamushka implements ConjuntoMamushkaTDA {
 	private int[] elementos;
 	private int indice;
 	@Override
-	public void inicializar() {
+	public void inicializar() { // Complejidad Constante
 		elementos = new int[10];
 		indice = 0;
 	}
 
 	@Override
-	public void guardar(int dato) {
+	public void guardar(int dato) { // Complejidad Constante
 		elementos[indice] = dato;
 		indice++;
 	}
 
 	@Override
-	public void sacar(int dato) {
+	public void sacar(int dato) { // Complejidad Lineal
 		for (int i = indice - 1; i >= 0; i--) {
 			if (elementos[i] == dato) {
 				elementos[i] = elementos[indice - 1];
@@ -34,7 +34,7 @@ public class ConjuntoMamushka implements ConjuntoMamushkaTDA {
 	}
 
 	@Override
-	public int perteneceCant(int dato) {
+	public int perteneceCant(int dato) { // Complejidad Lineal
 		int cant = 0;
 		for (int i = 0; i < indice; i++) {
 			if (elementos[i] == dato)
@@ -44,11 +44,11 @@ public class ConjuntoMamushka implements ConjuntoMamushkaTDA {
 	}
 
 	@Override
-	public boolean estaVacio() {
+	public boolean estaVacio() { // Complejidad Constante
 		return indice == 0;
 	}
 
-	public void p() {
+	public void p() {// Complejidad Lineal
 		for (int i = 0; i < indice; i++) {
 			System.out.println(elementos[i]);
 		}
