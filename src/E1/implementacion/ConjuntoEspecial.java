@@ -12,7 +12,7 @@ public class ConjuntoEspecial implements ConjuntoEspecialTDA {
 
 		conj = new int[100];
 		cant = 0;
-
+		resp=new Respuesta();
 	}
 
 	@Override
