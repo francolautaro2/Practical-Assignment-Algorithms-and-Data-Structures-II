@@ -15,14 +15,14 @@ public class DiccionarioSimple implements DiccionarioSimpleTDA {
         elementos = new ColaPrioridad();
         elementos.inicializarCola();
     }
-    public void agregar(int clave, int valor) {
+    public void agregar(int clave, int valor) { // Complejidad lineal
         // clave = prioridad
         // valor = info de la cola
         
         elementos.acolarPrioridad(valor, clave);
 
     }
-    public void eliminar(int clave) {
+    public void eliminar(int clave) { // Complejidad exponencial
         ColaPrioridadTDA colaAux = new ColaPrioridad();
         colaAux.inicializarCola();
         while(!elementos.colaVacia()) {
@@ -33,12 +33,12 @@ public class DiccionarioSimple implements DiccionarioSimpleTDA {
             elementos.desacolar();
         }
         while(!colaAux.colaVacia()) {
-            elementos.acolarPrioridad(colaAux.prioridad(), colaAux.primero());
+            elementos.acolarPrioridad(colaAux.primero(), colaAux.prioridad());
             colaAux.desacolar();
         }
     }
 
-    public int recuperar(int clave) {
+    public int recuperar(int clave) { // Complejidad exponencial
         ColaPrioridadTDA colaAux = new ColaPrioridad();
         colaAux.inicializarCola();
         int elemento = 0;
@@ -47,17 +47,17 @@ public class DiccionarioSimple implements DiccionarioSimpleTDA {
             if (clave == elementos.prioridad()) {
                elemento = valor;
             }
-            colaAux.acolarPrioridad(elementos.prioridad(), elementos.primero());
+            colaAux.acolarPrioridad(elementos.primero(), elementos.prioridad());
             elementos.desacolar();
         }
         
         while(!colaAux.colaVacia()) {
-            elementos.acolarPrioridad(colaAux.prioridad(), colaAux.primero());
+            elementos.acolarPrioridad(colaAux.primero(), colaAux.prioridad());
             colaAux.desacolar();
         }
         return elemento;
     }
-    public ConjuntoTDA claves() {
+    public ConjuntoTDA claves() { // Complejidad exponencial
         ColaPrioridadTDA colaAux = new ColaPrioridad();
         colaAux.inicializarCola();
         ConjuntoTDA conj = new Conjunto();
@@ -69,7 +69,7 @@ public class DiccionarioSimple implements DiccionarioSimpleTDA {
         }
         
         while(!colaAux.colaVacia()) {
-            elementos.acolarPrioridad(colaAux.prioridad(), colaAux.primero());
+            elementos.acolarPrioridad(colaAux.primero(), colaAux.prioridad());
             colaAux.desacolar();
         }
         return conj;
