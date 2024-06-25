@@ -1,11 +1,11 @@
-package E15.uso;
+package E15;
 
-import imple.*;
 import tda.*;
+import imple.*;
 
-public class Main {
+public class main {
 
-	public static int gradoVertice(GrafoTDA grafo, int vertice) {
+    public static int gradoVertice(GrafoTDA grafo, int vertice) {
         int gradoSalida = 0;
         int gradoEntrada = 0;
         
