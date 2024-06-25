@@ -32,9 +32,6 @@ public class MultiPila implements MultiPilaTDA {
     }
 
     public void desapilar(PilaTDA valores) { // Complejidad: Lineal
-	if (valores.pilaVacia() || this.pilaVacia()) {
-            return;
-	}
 		
 	Nodo actual = primero;
         PilaTDA temp = new Pila();
