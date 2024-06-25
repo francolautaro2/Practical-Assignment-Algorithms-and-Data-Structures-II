@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T20:48:24.693Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hFTJMMjEtgyZaLkOf_Z5" version="24.6.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-25T15:39:51.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="zkWKRU1urpOD_q7fMxZe" version="24.6.1" type="device">
   <diagram name="Page-1" id="Mg-w1ocDhV4yeSpSVFJD">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,21 +69,6 @@
         <mxCell id="c5_7h0qf2dceUBtzriQi-22" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 85 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="480" y="1400" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c5_7h0qf2dceUBtzriQi-25" target="c5_7h0qf2dceUBtzriQi-26" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c5_7h0qf2dceUBtzriQi-25" target="c5_7h0qf2dceUBtzriQi-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-25" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 55 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1600" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-26" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 31, 53 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1720" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-27" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 85 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="480" y="1720" width="320" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="c5_7h0qf2dceUBtzriQi-33" value="[&amp;nbsp; ]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="280" y="40" width="320" height="40" as="geometry" />
         </mxCell>
@@ -117,11 +102,64 @@
         <mxCell id="c5_7h0qf2dceUBtzriQi-43" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;Eliminamos 105 del hijo derecho&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1240" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-44" value="&lt;div style=&quot;&quot;&gt;&lt;h3&gt;&lt;p&gt;&lt;/p&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;h. Eliminar el 62&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="280" y="1480" width="320" height="40" as="geometry" />
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1.115;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ks3nwZxxMBVziVu1xxpv-3" target="Ks3nwZxxMBVziVu1xxpv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.0000000000002" y="1650" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="c5_7h0qf2dceUBtzriQi-45" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;p&gt;Para eliminar el 62 de la raíz, buscamos el predecesor o sucesor inmediato. El predecesor inmediato es 55.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Reemplazamos 62 con 55 y luego eliminamos 55 del nodo hoja:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;horizontal=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1520" width="320" height="80" as="geometry" />
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks3nwZxxMBVziVu1xxpv-3" target="Ks3nwZxxMBVziVu1xxpv-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.0000000000002" y="1650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;[55]&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1580" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-4" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 31, 53 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1700" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-5" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 62 , 85 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1700" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-7" value="&lt;div style=&quot;&quot;&gt;&lt;h3&gt;&lt;p&gt;&lt;/p&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;g. Eliminar el 105&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="280" y="1200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;g. Realizamos donación&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="270" y="1480" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-9" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 15px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Promuevo el mayor de los menores como padre y dono el anterior padre al arbol derecho&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1520" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1.115;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ks3nwZxxMBVziVu1xxpv-12" target="Ks3nwZxxMBVziVu1xxpv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.0000000000002" y="1930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks3nwZxxMBVziVu1xxpv-12" target="Ks3nwZxxMBVziVu1xxpv-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.0000000000002" y="1930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-12" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;[55]&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1860" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-13" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 31, 53 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1980" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-14" value="&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;pre&gt;&lt;div class=&quot;dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;code class=&quot;!whitespace-pre hljs language-css&quot;&gt;&lt;span class=&quot;hljs-selector-attr&quot;&gt;[ 85 ]&lt;/span&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h3&gt;&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1980" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-15" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;h. Elimino el 62&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="280" y="1800" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-18" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;[31, 53, 55, 85]&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Lucida Console;horizontal=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2190" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-21" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;h. Realizo una fusion&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="280" y="2080" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks3nwZxxMBVziVu1xxpv-22" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Como no puedo realizar donación, realizo una fusión&amp;nbsp;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2120" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
