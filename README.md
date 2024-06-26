@@ -7,9 +7,6 @@ This repository contains the practical assignment carried out for the course Alg
 
 1. **Graph Algorithms**:
    - Implementation of graphs using adjacency lists and adjacency matrices.
-   - Graph traversal algorithms: BFS (Breadth-First Search) and DFS (Depth-First Search).
-   - Shortest path algorithms: Dijkstra and Floyd-Warshall.
-   - Cycle detection and strongly connected components.
 
 2. **Trees**:
    - Implementation of binary trees and binary search trees (BST).
