@@ -21,13 +21,10 @@ This repository contains the practical assignment carried out for the course Alg
 
 4. **Queues**:
    - Implementation of queues using linked lists and arrays.
-   - Circular queues and double-ended queues (deque).
-   - Applications of queues in breadth-first search (BFS) algorithms and task management systems.
 
 5. **Dictionaries (Maps)**:
    - Implementation of dictionaries.
    - Collision handling: chaining and open addressing.
-   - Applications of dictionaries in efficient data search and storage problems.
 
 6. **Sets**:
    - Implementation of sets using list structures.
