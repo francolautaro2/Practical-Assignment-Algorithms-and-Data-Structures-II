@@ -27,12 +27,12 @@ This repository contains the practical assignment carried out for the Universida
    - Applications of queues in breadth-first search (BFS) algorithms and task management systems.
 
 5. **Dictionaries (Maps)**:
-   - Implementation of dictionaries using hash tables.
+   - Implementation of dictionaries.
    - Collision handling: chaining and open addressing.
    - Applications of dictionaries in efficient data search and storage problems.
 
 6. **Sets**:
-   - Implementation of sets using list structures and hash tables.
+   - Implementation of sets using list structures.
    - Basic operations: union, intersection, difference, and membership testing.
    - Applications of sets in set theory problems and graph algorithms.
 
