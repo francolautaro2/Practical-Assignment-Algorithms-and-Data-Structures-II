@@ -12,7 +12,7 @@ This repository contains the practical assignment carried out for the course Alg
    - Implementation of binary trees and binary search trees (BST).
    - Tree traversals: inorder, preorder, and postorder.
    - Operations for insertion, deletion, and search in trees.
-   - Balanced trees: AVL and Red-Black Trees.
+   - Balanced trees: AVL
 
 3. **Stacks**:
    - Implementation of stacks using linked lists and arrays.
