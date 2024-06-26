@@ -1,4 +1,4 @@
-# Practical Assignment - Algorithms and Data Structures
+# Practical Assignment - Algorithms and Data Structures II
 
 This repository contains the practical assignment carried out for the Universidad Argentina de la Empresa (UADE). In this project, various fundamental data structures and algorithms have been implemented and analyzed. Below are the topics covered:
 
